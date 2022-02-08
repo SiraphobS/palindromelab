@@ -7,12 +7,12 @@ fn main() {
     x=x.trim().to_string();
     let f = x.chars().rev().collect::<String>();
 
-    println!("x:{}",x);
-    println!("f:{}",f);
+        println!("x:{}",x);
+        println!("f:{}",f);
 
     if x == f {
-    println!("Given string is Palindrome");
+        println!("Given string is Palindrome");
     } else {
-    println!("Given string is not Palindrome");
+        println!("Given string is not Palindrome");
     }
 }
